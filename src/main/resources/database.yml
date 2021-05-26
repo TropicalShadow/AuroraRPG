@@ -1,0 +1,22 @@
+data:
+
+  address: "host:port"
+
+  database: "aurorarpg"
+
+  # Credentials for the database.
+  username: "username"
+  password: "A Complex Password"
+
+  pool-settings:
+
+    #   https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing
+    maximum-pool-size: 10
+    minimum-idle: 10
+    maximum-lifetime: 1800000 # 30 minutes
+    connection-timeout: 5000 # 5 seconds
+    properties:
+      useUnicode: true
+      characterEncoding: utf8
+      #useSSL: false
+      #verifyServerCertificate: false

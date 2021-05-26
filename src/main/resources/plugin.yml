@@ -1,0 +1,10 @@
+main: me.tropicalshadow.aurorarpg.AuroraRPG
+name: AuroraRPG
+version: 0.0.2
+author: TropicalShadow
+api-version: 1.16
+commands:
+  aurorarpg:
+  addhealth:
+  spawncustommob:
+  adminitems:
